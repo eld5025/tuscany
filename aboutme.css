@@ -1,0 +1,132 @@
+/*comment */
+/* the star selector selects all */
+/* * {
+	border: 2px solid lightgreen;
+}*/
+body {
+	background: url("tuscany2.jpg");
+	/*fills in width*/
+	background-size: 100%;	
+	/*doesn't repeat image*/
+	background-repeat: no-repeat;
+	/*scrolls over background image*/
+	background-attachment: fixed;
+}
+p {
+	color: darkorange;
+	font-size: 20px;
+}
+
+div p {
+
+	color: slateblue;
+}
+
+p span {
+	font-size: 10px;
+
+}
+/*style for class*/
+.location {
+	color: mediumpurple;
+	font-size: 30px;
+	font-family: 'Shadows Into Light', cursive;
+
+}
+/*style for id */
+#nc {
+	background-color: lavender;
+	color: tomato;
+	text-align: right;
+}
+/*hoveringf over a link*/
+a:hover{
+	text-decoration: none;
+	font-weight: 600;
+}
+/*after link is clicked*/
+a:visited{
+	color: turquoise;
+}
+ul {
+	list-style: none;
+}
+li:first-child{
+	color: maroon;
+}
+li:last-child{
+	color: cornflowerblue;
+}
+h1:first-letter{
+	font-size: 80px;
+	color: green;
+}
+div {
+	background-color: rgba(255,255,255,.5);
+}
+
+/*all the other font examples are based on this*/
+div.font-example{
+	font-size: 16px;
+}
+
+.font-example p {
+	font-size:inherit;
+
+}
+.font-example .plus-1 {
+	font-size: 1.5em;
+	color: black;
+	font-family: 'Indie Flower', cursive;
+}
+.font-example .plus-2 {
+	font-size: 2em;
+	font-family: 'Indie Flower', cursive;
+}
+h1 {
+	font-family: Georgia, serif, Times New Roman;
+}
+
+.borders{
+	height: 200px;
+	width: 200px;
+	background-color: #ffffff;
+	border: 5px solid violet;
+	/*same as above
+	border-width: 5px;
+	border-height: 5px;
+	border-color: violet; */
+	/*creates circle from square*/
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 50px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
